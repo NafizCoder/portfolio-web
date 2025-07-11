@@ -1,0 +1,40 @@
+
+/* shared style */
+text-primary{
+  color: #4E47FF;
+}
+
+.btn-primary{
+  background-color: #4E47FF;
+  color: white;
+  font-weight: bold;
+  padding: 12px 36px;
+  border: none;
+  border-radius: 10px;
+
+
+}
+
+/* nav styles */
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50px 180px;
+  height: 151px;
+  width: 1140;
+}
+.nav-logo{
+  width: 99px;
+  height: 51px;
+  color: #4E47FF;
+}
+nav ul li{
+  list-style: none;
+}
+
+nav li a{
+  text-decoration: none;
+}
+
+/* 1st div */
