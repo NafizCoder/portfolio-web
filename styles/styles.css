@@ -1,4 +1,18 @@
 
+
+body {
+  display: flex;
+  justify-content: center;
+}
+/* header style */
+header {
+  height: 500px;
+  width: 900px;
+  background-image: url('/Hero-bg.png');
+  background-size: cover;
+  background-position: center;
+}
+
 /* shared style */
 text-primary{
   color: #4E47FF;
@@ -22,6 +36,47 @@ nav{
   justify-content: space-between;
   margin: 50px 180px;
   height: 151px;
+  width: 500px;
+}
+.nav-logo{
+  width: 99px;
+  height: 51px;
+  color: #4E47FF;
+}
+nav ul li{
+  list-style: none;
+}
+
+nav li a{
+  text-decoration: none;
+}
+
+
+
+/* shared style */
+text-primary{
+  color: #4E47FF;
+}
+
+.btn-primary{
+  background-color: #4E47FF;
+  color: white;
+  font-weight: bold;
+  padding: 12px 36px;
+  border: none;
+  border-radius: 10px;
+
+
+}
+
+
+/* nav styles */
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50px 180px;
+  height: 151px;
   width: 1140;
 }
 .nav-logo{
@@ -37,4 +92,38 @@ nav li a{
   text-decoration: none;
 }
 
-/* 1st div */
+/* banner styles */
+
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 237px;
+  text-align: center;
+}
+
+.banner-content {
+  display: flex;
+  flex-direction: column; 
+  gap: 20px; 
+}
+/* section 2 design */
+main{
+  max-height: 329px;
+  max-width: 900px;
+}
+main section{
+  display: flex;
+  margin-top: 100px;
+  justify-content: space-between;
+}
+.action-right img{
+  height: 250px;
+  width: 250px;
+  border-radius: 10px;
+}
+.action-left{
+  padding: 50px ;
+}
+
+  
