@@ -125,5 +125,51 @@ main section{
 .action-left{
   padding: 50px ;
 }
+/* input box */
+/* Let’s Get In Touch Section */
+.contact-section {
+  display: flex;
+  justify-content: space-between;
+  width: 900px;
+  margin-top: 100px;
+}
+
+/* বাম পাশে টাইটেল */
+.contact-left {
+  width: 40%;
+  display: flex;
+  align-items: center;
+}
+
+.section-title {
+  font-size: 28px;
+  color: #4E47FF;
+  font-weight: bold;
+}
+
+/* ডান পাশে ফর্ম */
+.contact-right {
+  width: 55%;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.contact-form label {
+  font-weight: bold;
+  color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
 
   
